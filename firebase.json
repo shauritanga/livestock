@@ -1,0 +1,61 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "livestock-agripoa",
+          "appId": "1:392564914465:android:66de69fc9a0e87fcf4e660",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "livestock-agripoa",
+          "appId": "1:392564914465:ios:d24d717dd8b10ab4f4e660",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "livestock-agripoa",
+          "configurations": {
+            "android": "1:392564914465:android:66de69fc9a0e87fcf4e660",
+            "ios": "1:392564914465:ios:d24d717dd8b10ab4f4e660"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint",
+        "npm --prefix \"$RESOURCE_DIR\" run build"
+      ],
+      "runtime": "nodejs22",
+      "cleanupPolicy": {
+        "keepMinimumImages": 3,
+        "deleteOlderThan": "30d"
+      }
+    }
+  ],
+  "firestore": {
+    "database": "(default)",
+    "location": "africa-south1",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  },
+  "storage": {
+    "rules": "storage.rules"
+  }
+}

@@ -1,0 +1,308 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "insurancePolicies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "nextPaymentDue",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "insurancePolicies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "policyEndDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "claims",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "farmerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "claims",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cattleId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "claims",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "submittedDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "milkDeliveries",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "farmerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "deliveryDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "milkDeliveries",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "deliveryDate",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "milkDeliveries",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "deliveryDate",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+
+    {
+      "collectionGroup": "farmers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "name",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "farmers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "registeredAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "farmers",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "gender",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "cattle",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "farmerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isActive",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "cattle",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "lactationStatus",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "cattle",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "breed",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "loans",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "loans",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "disbursedAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "insurancePolicies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "farmerId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "insurancePolicies",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "status",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "sale_transactions",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "timestamp",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "alerts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "severity",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "alerts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "cooperativeId",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "isRead",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "createdAt",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": []
+}

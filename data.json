@@ -1,0 +1,2994 @@
+{
+  "updatedAt": "2025-11-21",
+  "regions": {
+    "1": {
+      "name": "Arusha"
+    },
+    "2": {
+      "name": "Dar es Salaam"
+    },
+    "3": {
+      "name": "Dodoma"
+    },
+    "4": {
+      "name": "Geita"
+    },
+    "5": {
+      "name": "Iringa"
+    },
+    "6": {
+      "name": "Kagera"
+    },
+    "7": {
+      "name": "Katavi"
+    },
+    "8": {
+      "name": "Kigoma"
+    },
+    "9": {
+      "name": "Kilimanjaro"
+    },
+    "10": {
+      "name": "Lindi"
+    },
+    "11": {
+      "name": "Manyara"
+    },
+    "12": {
+      "name": "Mara"
+    },
+    "13": {
+      "name": "Mbeya"
+    },
+    "14": {
+      "name": "Morogoro"
+    },
+    "15": {
+      "name": "Mtwara"
+    },
+    "16": {
+      "name": "Mwanza"
+    },
+    "17": {
+      "name": "Njombe"
+    },
+    "18": {
+      "name": "Pwani"
+    },
+    "19": {
+      "name": "Rukwa"
+    },
+    "20": {
+      "name": "Ruvuma"
+    },
+    "21": {
+      "name": "Shinyanga"
+    },
+    "22": {
+      "name": "Simiyu"
+    },
+    "23": {
+      "name": "Singida"
+    },
+    "24": {
+      "name": "Songwe"
+    },
+    "25": {
+      "name": "Tabora"
+    },
+    "26": {
+      "name": "Tanga"
+    },
+    "27": {
+      "name": "Unguja North"
+    },
+    "28": {
+      "name": "Unguja South"
+    },
+    "29": {
+      "name": "Mjini Magharibi"
+    },
+    "30": {
+      "name": "Pemba North"
+    },
+    "31": {
+      "name": "Pemba South"
+    }
+  },
+  "districts": {
+    "101": {
+      "name": "Arusha City Council",
+      "regionId": "1",
+      "type": "City"
+    },
+    "102": {
+      "name": "Arusha District Council",
+      "regionId": "1",
+      "type": "District"
+    },
+    "103": {
+      "name": "Karatu District Council",
+      "regionId": "1",
+      "type": "District"
+    },
+    "104": {
+      "name": "Longido District Council",
+      "regionId": "1",
+      "type": "District"
+    },
+    "105": {
+      "name": "Meru District Council",
+      "regionId": "1",
+      "type": "District"
+    },
+    "106": {
+      "name": "Monduli District Council",
+      "regionId": "1",
+      "type": "District"
+    },
+    "107": {
+      "name": "Ngorongoro District Council",
+      "regionId": "1",
+      "type": "District"
+    },
+    "201": {
+      "name": "Ilala Municipal",
+      "regionId": "2",
+      "type": "Municipal"
+    },
+    "202": {
+      "name": "Kigamboni Municipal",
+      "regionId": "2",
+      "type": "Municipal"
+    },
+    "203": {
+      "name": "Kinondoni Municipal",
+      "regionId": "2",
+      "type": "Municipal"
+    },
+    "204": {
+      "name": "Temeke Municipal",
+      "regionId": "2",
+      "type": "Municipal"
+    },
+    "205": {
+      "name": "Ubungo Municipal",
+      "regionId": "2",
+      "type": "Municipal"
+    },
+    "301": {
+      "name": "Bahi District",
+      "regionId": "3",
+      "type": "District"
+    },
+    "302": {
+      "name": "Chamwino District",
+      "regionId": "3",
+      "type": "District"
+    },
+    "303": {
+      "name": "Chemba District",
+      "regionId": "3",
+      "type": "District"
+    },
+    "304": {
+      "name": "Dodoma City",
+      "regionId": "3",
+      "type": "City"
+    },
+    "305": {
+      "name": "Kondoa District",
+      "regionId": "3",
+      "type": "District"
+    },
+    "306": {
+      "name": "Kondoa Town",
+      "regionId": "3",
+      "type": "Town"
+    },
+    "307": {
+      "name": "Kongwa District",
+      "regionId": "3",
+      "type": "District"
+    },
+    "308": {
+      "name": "Mpwapwa District",
+      "regionId": "3",
+      "type": "District"
+    },
+    "401": {
+      "name": "Bukombe District",
+      "regionId": "4",
+      "type": "District"
+    },
+    "402": {
+      "name": "Chato District",
+      "regionId": "4",
+      "type": "District"
+    },
+    "403": {
+      "name": "Geita District",
+      "regionId": "4",
+      "type": "District"
+    },
+    "404": {
+      "name": "Geita Town",
+      "regionId": "4",
+      "type": "Town"
+    },
+    "405": {
+      "name": "Mbogwe District",
+      "regionId": "4",
+      "type": "District"
+    },
+    "406": {
+      "name": "Nyang'hwale District",
+      "regionId": "4",
+      "type": "District"
+    },
+    "501": {
+      "name": "Iringa Municipal",
+      "regionId": "5",
+      "type": "Municipal"
+    },
+    "502": {
+      "name": "Iringa District",
+      "regionId": "5",
+      "type": "District"
+    },
+    "503": {
+      "name": "Kilolo District",
+      "regionId": "5",
+      "type": "District"
+    },
+    "504": {
+      "name": "Mafinga Town",
+      "regionId": "5",
+      "type": "Town"
+    },
+    "505": {
+      "name": "Mufindi District",
+      "regionId": "5",
+      "type": "District"
+    },
+    "601": {
+      "name": "Biharamulo District",
+      "regionId": "6",
+      "type": "District"
+    },
+    "602": {
+      "name": "Bukoba Municipal",
+      "regionId": "6",
+      "type": "Municipal"
+    },
+    "603": {
+      "name": "Bukoba District",
+      "regionId": "6",
+      "type": "District"
+    },
+    "604": {
+      "name": "Karagwe District",
+      "regionId": "6",
+      "type": "District"
+    },
+    "605": {
+      "name": "Kyerwa District",
+      "regionId": "6",
+      "type": "District"
+    },
+    "606": {
+      "name": "Missenyi District",
+      "regionId": "6",
+      "type": "District"
+    },
+    "607": {
+      "name": "Muleba District",
+      "regionId": "6",
+      "type": "District"
+    },
+    "608": {
+      "name": "Ngara District",
+      "regionId": "6",
+      "type": "District"
+    },
+    "701": {
+      "name": "Mlele District",
+      "regionId": "7",
+      "type": "District"
+    },
+    "702": {
+      "name": "Mpanda Municipal",
+      "regionId": "7",
+      "type": "Municipal"
+    },
+    "703": {
+      "name": "Mpimbwe District",
+      "regionId": "7",
+      "type": "District"
+    },
+    "704": {
+      "name": "Nsimbo District",
+      "regionId": "7",
+      "type": "District"
+    },
+    "705": {
+      "name": "Tanganyika District",
+      "regionId": "7",
+      "type": "District"
+    },
+    "801": {
+      "name": "Buhigwe District",
+      "regionId": "8",
+      "type": "District"
+    },
+    "802": {
+      "name": "Kakonko District",
+      "regionId": "8",
+      "type": "District"
+    },
+    "803": {
+      "name": "Kasulu District Council",
+      "regionId": "8",
+      "type": "District"
+    },
+    "804": {
+      "name": "Kasulu Town Council",
+      "regionId": "8",
+      "type": "Town"
+    },
+    "805": {
+      "name": "Kibondo District Council",
+      "regionId": "8",
+      "type": "District"
+    },
+    "806": {
+      "name": "Kigoma Municipal Council",
+      "regionId": "8",
+      "type": "Municipal"
+    },
+    "807": {
+      "name": "Kigoma District Council",
+      "regionId": "8",
+      "type": "District"
+    },
+    "808": {
+      "name": "Uvinza District Council",
+      "regionId": "8",
+      "type": "District"
+    },
+    "901": {
+      "name": "Hai District Council",
+      "regionId": "9",
+      "type": "District"
+    },
+    "902": {
+      "name": "Moshi Municipal Council",
+      "regionId": "9",
+      "type": "Municipal"
+    },
+    "903": {
+      "name": "Moshi District Council",
+      "regionId": "9",
+      "type": "District"
+    },
+    "904": {
+      "name": "Mwanga District Council",
+      "regionId": "9",
+      "type": "District"
+    },
+    "905": {
+      "name": "Rombo District Council",
+      "regionId": "9",
+      "type": "District"
+    },
+    "906": {
+      "name": "Same District Council",
+      "regionId": "9",
+      "type": "District"
+    },
+    "907": {
+      "name": "Siha District Council",
+      "regionId": "9",
+      "type": "District"
+    },
+    "1001": {
+      "name": "Kilwa District Council",
+      "regionId": "10",
+      "type": "District"
+    },
+    "1002": {
+      "name": "Lindi Municipal Council",
+      "regionId": "10",
+      "type": "Municipal"
+    },
+    "1003": {
+      "name": "Liwale District Council",
+      "regionId": "10",
+      "type": "District"
+    },
+    "1004": {
+      "name": "Mtama District Council",
+      "regionId": "10",
+      "type": "District"
+    },
+    "1005": {
+      "name": "Nachingwea District Council",
+      "regionId": "10",
+      "type": "District"
+    },
+    "1006": {
+      "name": "Ruangwa District Council",
+      "regionId": "10",
+      "type": "District"
+    },
+    "1101": {
+      "name": "Babati Town Council",
+      "regionId": "11",
+      "type": "Town"
+    },
+    "1102": {
+      "name": "Babati District Council",
+      "regionId": "11",
+      "type": "District"
+    },
+    "1103": {
+      "name": "Hanang District Council",
+      "regionId": "11",
+      "type": "District"
+    },
+    "1104": {
+      "name": "Kiteto District Council",
+      "regionId": "11",
+      "type": "District"
+    },
+    "1105": {
+      "name": "Mbulu Town Council",
+      "regionId": "11",
+      "type": "Town"
+    },
+    "1106": {
+      "name": "Mbulu District Council",
+      "regionId": "11",
+      "type": "District"
+    },
+    "1107": {
+      "name": "Simanjiro District Council",
+      "regionId": "11",
+      "type": "District"
+    },
+    "1201": {
+      "name": "Bunda District Council",
+      "regionId": "12",
+      "type": "District"
+    },
+    "1202": {
+      "name": "Bunda Town Council",
+      "regionId": "12",
+      "type": "Town"
+    },
+    "1203": {
+      "name": "Butiama District Council",
+      "regionId": "12",
+      "type": "District"
+    },
+    "1204": {
+      "name": "Musoma Municipal Council",
+      "regionId": "12",
+      "type": "Municipal"
+    },
+    "1205": {
+      "name": "Musoma District Council",
+      "regionId": "12",
+      "type": "District"
+    },
+    "1206": {
+      "name": "Rorya District Council",
+      "regionId": "12",
+      "type": "District"
+    },
+    "1207": {
+      "name": "Serengeti District",
+      "regionId": "12",
+      "type": "District"
+    },
+    "1208": {
+      "name": "Tarime District",
+      "regionId": "12",
+      "type": "District"
+    },
+    "1209": {
+      "name": "Tarime Town",
+      "regionId": "12",
+      "type": "Town"
+    },
+    "1301": {
+      "name": "Busokelo District",
+      "regionId": "13",
+      "type": "District"
+    },
+    "1302": {
+      "name": "Chunya District",
+      "regionId": "13",
+      "type": "District"
+    },
+    "1303": {
+      "name": "Kyela District",
+      "regionId": "13",
+      "type": "District"
+    },
+    "1304": {
+      "name": "Mbarali District",
+      "regionId": "13",
+      "type": "District"
+    },
+    "1305": {
+      "name": "Mbeya City",
+      "regionId": "13",
+      "type": "City"
+    },
+    "1306": {
+      "name": "Mbeya District Council",
+      "regionId": "13",
+      "type": "District"
+    },
+    "1307": {
+      "name": "Rungwe District Council",
+      "regionId": "13",
+      "type": "District"
+    },
+    "1401": {
+      "name": "Gairo District Council",
+      "regionId": "14",
+      "type": "District"
+    },
+    "1402": {
+      "name": "Ifakara Town Council",
+      "regionId": "14",
+      "type": "Town"
+    },
+    "1403": {
+      "name": "Kilombero District Council",
+      "regionId": "14",
+      "type": "District"
+    },
+    "1404": {
+      "name": "Kilosa District Council",
+      "regionId": "14",
+      "type": "District"
+    },
+    "1405": {
+      "name": "Malinyi District Council",
+      "regionId": "14",
+      "type": "District"
+    },
+    "1406": {
+      "name": "Mlimba District Council",
+      "regionId": "14",
+      "type": "District"
+    },
+    "1407": {
+      "name": "Morogoro Municipal Council",
+      "regionId": "14",
+      "type": "Municipal"
+    },
+    "1408": {
+      "name": "Morogoro District Council",
+      "regionId": "14",
+      "type": "District"
+    },
+    "1409": {
+      "name": "Mvomero District Council",
+      "regionId": "14",
+      "type": "District"
+    },
+    "1410": {
+      "name": "Ulanga District Council",
+      "regionId": "14",
+      "type": "District"
+    },
+    "1501": {
+      "name": "Masasi District Council",
+      "regionId": "15",
+      "type": "District"
+    },
+    "1502": {
+      "name": "Masasi Town Council",
+      "regionId": "15",
+      "type": "Town"
+    },
+    "1503": {
+      "name": "Mtwara-Mikindani Municipal Council",
+      "regionId": "15",
+      "type": "Municipal"
+    },
+    "1504": {
+      "name": "Mtwara District Council",
+      "regionId": "15",
+      "type": "District"
+    },
+    "1505": {
+      "name": "Nanyamba Town Council",
+      "regionId": "15",
+      "type": "Town"
+    },
+    "1506": {
+      "name": "Nanyumbu District Council",
+      "regionId": "15",
+      "type": "District"
+    },
+    "1507": {
+      "name": "Newala District Council",
+      "regionId": "15",
+      "type": "District"
+    },
+    "1508": {
+      "name": "Newala Town Council",
+      "regionId": "15",
+      "type": "Town"
+    },
+    "1509": {
+      "name": "Tandahimba District Council",
+      "regionId": "15",
+      "type": "District"
+    },
+    "1601": {
+      "name": "Buchosa District Council",
+      "regionId": "16",
+      "type": "District"
+    },
+    "1602": {
+      "name": "Ilemela Municipal",
+      "regionId": "16",
+      "type": "Municipal"
+    },
+    "1603": {
+      "name": "Kwimba District",
+      "regionId": "16",
+      "type": "District"
+    },
+    "1604": {
+      "name": "Magu District",
+      "regionId": "16",
+      "type": "District"
+    },
+    "1605": {
+      "name": "Misungwi District",
+      "regionId": "16",
+      "type": "District"
+    },
+    "1606": {
+      "name": "Nyamagana City",
+      "regionId": "16",
+      "type": "City"
+    },
+    "1607": {
+      "name": "Sengerema District",
+      "regionId": "16",
+      "type": "District"
+    },
+    "1608": {
+      "name": "Ukerewe District",
+      "regionId": "16",
+      "type": "District"
+    },
+    "1701": {
+      "name": "Ludewa District",
+      "regionId": "17",
+      "type": "District"
+    },
+    "1702": {
+      "name": "Makambako Town",
+      "regionId": "17",
+      "type": "Town"
+    },
+    "1703": {
+      "name": "Makete District",
+      "regionId": "17",
+      "type": "District"
+    },
+    "1704": {
+      "name": "Njombe District",
+      "regionId": "17",
+      "type": "District"
+    },
+    "1705": {
+      "name": "Njombe Town",
+      "regionId": "17",
+      "type": "Town"
+    },
+    "1706": {
+      "name": "Wanging'ombe District",
+      "regionId": "17",
+      "type": "District"
+    },
+    "1801": {
+      "name": "Bagamoyo District",
+      "regionId": "18",
+      "type": "District"
+    },
+    "1802": {
+      "name": "Chalinze District",
+      "regionId": "18",
+      "type": "District"
+    },
+    "1803": {
+      "name": "Kibaha District",
+      "regionId": "18",
+      "type": "District"
+    },
+    "1804": {
+      "name": "Kibaha Town",
+      "regionId": "18",
+      "type": "Town"
+    },
+    "1805": {
+      "name": "Kibiti District",
+      "regionId": "18",
+      "type": "District"
+    },
+    "1806": {
+      "name": "Kisarawe District",
+      "regionId": "18",
+      "type": "District"
+    },
+    "1807": {
+      "name": "Mafia District",
+      "regionId": "18",
+      "type": "District"
+    },
+    "1808": {
+      "name": "Mkuranga District",
+      "regionId": "18",
+      "type": "District"
+    },
+    "1809": {
+      "name": "Rufiji District",
+      "regionId": "18",
+      "type": "District"
+    },
+    "1901": {
+      "name": "Kalambo District",
+      "regionId": "19",
+      "type": "District"
+    },
+    "1902": {
+      "name": "Nkasi District",
+      "regionId": "19",
+      "type": "District"
+    },
+    "1903": {
+      "name": "Sumbawanga Municipal",
+      "regionId": "19",
+      "type": "Municipal"
+    },
+    "1904": {
+      "name": "Sumbawanga District",
+      "regionId": "19",
+      "type": "District"
+    },
+    "2001": {
+      "name": "Madaba District",
+      "regionId": "20",
+      "type": "District"
+    },
+    "2002": {
+      "name": "Mbinga District",
+      "regionId": "20",
+      "type": "District"
+    },
+    "2003": {
+      "name": "Mbinga Town",
+      "regionId": "20",
+      "type": "Town"
+    },
+    "2004": {
+      "name": "Namtumbo District",
+      "regionId": "20",
+      "type": "District"
+    },
+    "2005": {
+      "name": "Nyasa District",
+      "regionId": "20",
+      "type": "District"
+    },
+    "2006": {
+      "name": "Songea Municipal",
+      "regionId": "20",
+      "type": "Municipal"
+    },
+    "2007": {
+      "name": "Songea District",
+      "regionId": "20",
+      "type": "District"
+    },
+    "2008": {
+      "name": "Tunduru District",
+      "regionId": "20",
+      "type": "District"
+    },
+    "2101": {
+      "name": "Kahama Municipal",
+      "regionId": "21",
+      "type": "Municipal"
+    },
+    "2102": {
+      "name": "Kishapu District Council",
+      "regionId": "21",
+      "type": "District"
+    },
+    "2103": {
+      "name": "Msalala District Council",
+      "regionId": "21",
+      "type": "District"
+    },
+    "2104": {
+      "name": "Shinyanga Municipal Council",
+      "regionId": "21",
+      "type": "Municipal"
+    },
+    "2105": {
+      "name": "Shinyanga District Council",
+      "regionId": "21",
+      "type": "District"
+    },
+    "2106": {
+      "name": "Ushetu District Council",
+      "regionId": "21",
+      "type": "District"
+    },
+    "2201": {
+      "name": "Bariadi District Council",
+      "regionId": "22",
+      "type": "District"
+    },
+    "2202": {
+      "name": "Bariadi Town Council",
+      "regionId": "22",
+      "type": "Town"
+    },
+    "2203": {
+      "name": "Busega District Council",
+      "regionId": "22",
+      "type": "District"
+    },
+    "2204": {
+      "name": "Itilima District Council",
+      "regionId": "22",
+      "type": "District"
+    },
+    "2205": {
+      "name": "Maswa District Council",
+      "regionId": "22",
+      "type": "District"
+    },
+    "2206": {
+      "name": "Meatu District Council",
+      "regionId": "22",
+      "type": "District"
+    },
+    "2301": {
+      "name": "Ikungi District Council",
+      "regionId": "23",
+      "type": "District"
+    },
+    "2302": {
+      "name": "Iramba District Council",
+      "regionId": "23",
+      "type": "District"
+    },
+    "2303": {
+      "name": "Itigi District Council",
+      "regionId": "23",
+      "type": "District"
+    },
+    "2304": {
+      "name": "Manyoni District Council",
+      "regionId": "23",
+      "type": "District"
+    },
+    "2305": {
+      "name": "Mkalama District Council",
+      "regionId": "23",
+      "type": "District"
+    },
+    "2306": {
+      "name": "Singida Municipal Council",
+      "regionId": "23",
+      "type": "Municipal"
+    },
+    "2307": {
+      "name": "Singida District Council",
+      "regionId": "23",
+      "type": "District"
+    },
+    "2401": {
+      "name": "Ileje District Council",
+      "regionId": "24",
+      "type": "District"
+    },
+    "2402": {
+      "name": "Mbozi District Council",
+      "regionId": "24",
+      "type": "District"
+    },
+    "2403": {
+      "name": "Momba District Council",
+      "regionId": "24",
+      "type": "District"
+    },
+    "2404": {
+      "name": "Songwe District Council",
+      "regionId": "24",
+      "type": "District"
+    },
+    "2405": {
+      "name": "Tunduma Town Council",
+      "regionId": "24",
+      "type": "Town"
+    },
+    "2501": {
+      "name": "Igunga District Council",
+      "regionId": "25",
+      "type": "District"
+    },
+    "2502": {
+      "name": "Kaliua District Council",
+      "regionId": "25",
+      "type": "District"
+    },
+    "2503": {
+      "name": "Nzega District Council",
+      "regionId": "25",
+      "type": "District"
+    },
+    "2504": {
+      "name": "Nzega Town Council",
+      "regionId": "25",
+      "type": "Town"
+    },
+    "2505": {
+      "name": "Sikonge District Council",
+      "regionId": "25",
+      "type": "District"
+    },
+    "2506": {
+      "name": "Tabora Municipal Council",
+      "regionId": "25",
+      "type": "Municipal"
+    },
+    "2507": {
+      "name": "Urambo District Council",
+      "regionId": "25",
+      "type": "District"
+    },
+    "2508": {
+      "name": "Uyui District Council",
+      "regionId": "25",
+      "type": "District"
+    },
+    "2601": {
+      "name": "Bumbuli District Council",
+      "regionId": "26",
+      "type": "District"
+    },
+    "2602": {
+      "name": "Handeni District Council",
+      "regionId": "26",
+      "type": "District"
+    },
+    "2603": {
+      "name": "Handeni Town Council",
+      "regionId": "26",
+      "type": "Town"
+    },
+    "2604": {
+      "name": "Kilindi District Council",
+      "regionId": "26",
+      "type": "District"
+    },
+    "2605": {
+      "name": "Korogwe District Council",
+      "regionId": "26",
+      "type": "District"
+    },
+    "2606": {
+      "name": "Korogwe Town Council",
+      "regionId": "26",
+      "type": "Town"
+    },
+    "2607": {
+      "name": "Lushoto District Council",
+      "regionId": "26",
+      "type": "District"
+    },
+    "2608": {
+      "name": "Mkinga District Council",
+      "regionId": "26",
+      "type": "District"
+    },
+    "2609": {
+      "name": "Muheza District Council",
+      "regionId": "26",
+      "type": "District"
+    },
+    "2610": {
+      "name": "Pangani District Council",
+      "regionId": "26",
+      "type": "District"
+    },
+    "2611": {
+      "name": "Tanga City Council",
+      "regionId": "26",
+      "type": "City"
+    },
+    "2701": {
+      "name": "Kaskazini A Town Council",
+      "regionId": "27",
+      "type": "Town"
+    },
+    "2702": {
+      "name": "Kaskazini B District Council",
+      "regionId": "27",
+      "type": "District"
+    },
+    "2801": {
+      "name": "Kati District Council",
+      "regionId": "28",
+      "type": "District"
+    },
+    "2802": {
+      "name": "Kusini District Council",
+      "regionId": "28",
+      "type": "District"
+    },
+    "2901": {
+      "name": "Magharibi A Municipal Council",
+      "regionId": "29",
+      "type": "Municipal"
+    },
+    "2902": {
+      "name": "Magharibi B Municipal Council",
+      "regionId": "29",
+      "type": "Municipal"
+    },
+    "2903": {
+      "name": "Mjini Municipal Council",
+      "regionId": "29",
+      "type": "Municipal"
+    },
+    "3001": {
+      "name": "Micheweni District Council",
+      "regionId": "30",
+      "type": "District"
+    },
+    "3002": {
+      "name": "Wete District Council",
+      "regionId": "30",
+      "type": "District"
+    },
+    "3101": {
+      "name": "Chake Chake District Council",
+      "regionId": "31",
+      "type": "District"
+    },
+    "3102": {
+      "name": "Mkoani Town Council",
+      "regionId": "31",
+      "type": "Town"
+    }
+  },
+  "wards": {
+    "10001": {
+      "name": "Levolosi",
+      "districtId": "101"
+    },
+    "10002": {
+      "name": "Meru",
+      "districtId": "101"
+    },
+    "10003": {
+      "name": "Kaloleni",
+      "districtId": "101"
+    },
+    "10004": {
+      "name": "Sekei",
+      "districtId": "101"
+    },
+    "10005": {
+      "name": "Themi",
+      "districtId": "101"
+    },
+    "10006": {
+      "name": "Unga L.T.D",
+      "districtId": "101"
+    },
+    "10201": {
+      "name": "Ilboru",
+      "districtId": "102"
+    },
+    "10202": {
+      "name": "Kimnyaki",
+      "districtId": "102"
+    },
+    "10203": {
+      "name": "Kiranyi",
+      "districtId": "102"
+    },
+    "10204": {
+      "name": "Mateves",
+      "districtId": "102"
+    },
+    "10205": {
+      "name": "Musa",
+      "districtId": "102"
+    },
+    "10206": {
+      "name": "Oldonyosambu",
+      "districtId": "102"
+    },
+    "10207": {
+      "name": "Oljoro",
+      "districtId": "102"
+    },
+    "10208": {
+      "name": "Poli",
+      "districtId": "102"
+    },
+    "20101": {
+      "name": "Buguruni",
+      "districtId": "201"
+    },
+    "20102": {
+      "name": "Chanika",
+      "districtId": "201"
+    },
+    "20103": {
+      "name": "Gerezani",
+      "districtId": "201"
+    },
+    "20104": {
+      "name": "Ilala",
+      "districtId": "201"
+    },
+    "20105": {
+      "name": "Jangwani",
+      "districtId": "201"
+    },
+    "20106": {
+      "name": "Kariakoo",
+      "districtId": "201"
+    },
+    "20107": {
+      "name": "Kisutu",
+      "districtId": "201"
+    },
+    "20108": {
+      "name": "Kivukoni",
+      "districtId": "201"
+    },
+    "20109": {
+      "name": "Mchikichini",
+      "districtId": "201"
+    },
+    "20110": {
+      "name": "Pugu",
+      "districtId": "201"
+    },
+    "20111": {
+      "name": "Tabata",
+      "districtId": "201"
+    },
+    "20112": {
+      "name": "Upanga Magharibi",
+      "districtId": "201"
+    },
+    "20113": {
+      "name": "Upanga Mashariki",
+      "districtId": "201"
+    },
+    "20301": {
+      "name": "Hananasif",
+      "districtId": "203"
+    },
+    "20302": {
+      "name": "Kawe",
+      "districtId": "203"
+    },
+    "20303": {
+      "name": "Kinondoni",
+      "districtId": "203"
+    },
+    "20304": {
+      "name": "Mabibo",
+      "districtId": "203"
+    },
+    "20305": {
+      "name": "Magomeni",
+      "districtId": "203"
+    },
+    "20306": {
+      "name": "Makumbusho",
+      "districtId": "203"
+    },
+    "20307": {
+      "name": "Makurumla",
+      "districtId": "203"
+    },
+    "20308": {
+      "name": "Manzese",
+      "districtId": "203"
+    },
+    "20309": {
+      "name": "Mikocheni",
+      "districtId": "203"
+    },
+    "20310": {
+      "name": "Msasani",
+      "districtId": "203"
+    },
+    "20311": {
+      "name": "Tandale",
+      "districtId": "203"
+    },
+    "90001": {
+      "name": "Hai Mjini",
+      "districtId": "901"
+    },
+    "90002": {
+      "name": "Machame Kaskazini",
+      "districtId": "901"
+    },
+    "90003": {
+      "name": "Machame Kusini",
+      "districtId": "901"
+    },
+    "90004": {
+      "name": "Machame Magharibi",
+      "districtId": "901"
+    },
+    "90005": {
+      "name": "Machame Mashariki",
+      "districtId": "901"
+    },
+    "90006": {
+      "name": "Machame Uroki",
+      "districtId": "901"
+    },
+    "90007": {
+      "name": "Masama Magharibi",
+      "districtId": "901"
+    },
+    "90008": {
+      "name": "Masama Mashariki",
+      "districtId": "901"
+    },
+    "90009": {
+      "name": "Weruweru",
+      "districtId": "901"
+    },
+    "90201": {
+      "name": "Kiboriloni",
+      "districtId": "902"
+    },
+    "90202": {
+      "name": "Kilimanjaro",
+      "districtId": "902"
+    },
+    "90203": {
+      "name": "Korongoni",
+      "districtId": "902"
+    },
+    "90204": {
+      "name": "Majengo",
+      "districtId": "902"
+    },
+    "90205": {
+      "name": "Mawenzi",
+      "districtId": "902"
+    },
+    "90206": {
+      "name": "Mji Mpya",
+      "districtId": "902"
+    },
+    "90207": {
+      "name": "Msaranga",
+      "districtId": "902"
+    },
+    "90208": {
+      "name": "Pasua",
+      "districtId": "902"
+    },
+    "90209": {
+      "name": "Rau",
+      "districtId": "902"
+    },
+    "90210": {
+      "name": "Shirimatunda",
+      "districtId": "902"
+    },
+    "90301": {
+      "name": "Kahe",
+      "districtId": "903"
+    },
+    "90302": {
+      "name": "Kahe Mashariki",
+      "districtId": "903"
+    },
+    "90303": {
+      "name": "Kidia",
+      "districtId": "903"
+    },
+    "90304": {
+      "name": "Kilema Kaskazini",
+      "districtId": "903"
+    },
+    "90305": {
+      "name": "Kilema Kusini",
+      "districtId": "903"
+    },
+    "90306": {
+      "name": "Kimochi",
+      "districtId": "903"
+    },
+    "90307": {
+      "name": "Kirua Vunjo Kusini",
+      "districtId": "903"
+    },
+    "90308": {
+      "name": "Kirua Vunjo Magharibi",
+      "districtId": "903"
+    },
+    "90309": {
+      "name": "Kirua Vunjo Mashariki",
+      "districtId": "903"
+    },
+    "90310": {
+      "name": "Mabogini",
+      "districtId": "903"
+    },
+    "90311": {
+      "name": "Marangu Magharibi",
+      "districtId": "903"
+    },
+    "90312": {
+      "name": "Marangu Mashariki",
+      "districtId": "903"
+    },
+    "90313": {
+      "name": "Mwika Kaskazini",
+      "districtId": "903"
+    },
+    "90314": {
+      "name": "Mwika Kusini",
+      "districtId": "903"
+    },
+    "90315": {
+      "name": "Old Moshi Magharibi",
+      "districtId": "903"
+    },
+    "90316": {
+      "name": "Old Moshi Mashariki",
+      "districtId": "903"
+    },
+    "130501": {
+      "name": "Iyunga Mapinduzi",
+      "districtId": "1305"
+    },
+    "130502": {
+      "name": "Iyunga Mpakani",
+      "districtId": "1305"
+    },
+    "130503": {
+      "name": "Mabatini",
+      "districtId": "1305"
+    },
+    "130504": {
+      "name": "Mbalizi",
+      "districtId": "1305"
+    },
+    "130505": {
+      "name": "Nsoho",
+      "districtId": "1305"
+    },
+    "130506": {
+      "name": "Nzovwe",
+      "districtId": "1305"
+    },
+    "130507": {
+      "name": "Ruanda",
+      "districtId": "1305"
+    },
+    "130508": {
+      "name": "Sisimba",
+      "districtId": "1305"
+    },
+    "130509": {
+      "name": "Tembela",
+      "districtId": "1305"
+    },
+    "50101": {
+      "name": "Gangilonga",
+      "districtId": "501"
+    },
+    "50102": {
+      "name": "Ilala",
+      "districtId": "501"
+    },
+    "50103": {
+      "name": "Ipogolo",
+      "districtId": "501"
+    },
+    "50104": {
+      "name": "Kihesa",
+      "districtId": "501"
+    },
+    "50105": {
+      "name": "Kitwiru",
+      "districtId": "501"
+    },
+    "50106": {
+      "name": "Makorongoni",
+      "districtId": "501"
+    },
+    "50107": {
+      "name": "Mivinjeni",
+      "districtId": "501"
+    },
+    "50108": {
+      "name": "Mkwawa",
+      "districtId": "501"
+    },
+    "50109": {
+      "name": "Mlandege",
+      "districtId": "501"
+    },
+    "50110": {
+      "name": "Mtwivila",
+      "districtId": "501"
+    }
+  },
+  "villages": {
+    "1000101": {
+      "name": "Levolosi",
+      "wardId": "10001",
+      "isUrban": true
+    },
+    "1000201": {
+      "name": "Ngaramtoni",
+      "wardId": "10002",
+      "isUrban": false
+    },
+    "1000202": {
+      "name": "Meru",
+      "wardId": "10002",
+      "isUrban": true
+    },
+    "1000301": {
+      "name": "Kaloleni",
+      "wardId": "10003",
+      "isUrban": true
+    },
+    "1000401": {
+      "name": "Sekei",
+      "wardId": "10004",
+      "isUrban": true
+    },
+    "1000501": {
+      "name": "Themi",
+      "wardId": "10005",
+      "isUrban": true
+    },
+    "1020101": {
+      "name": "Ilboru",
+      "wardId": "10201",
+      "isUrban": false
+    },
+    "1020102": {
+      "name": "Ngarenanyuki",
+      "wardId": "10201",
+      "isUrban": false
+    },
+    "1020201": {
+      "name": "Kimnyaki",
+      "wardId": "10202",
+      "isUrban": false
+    },
+    "1020301": {
+      "name": "Kiranyi",
+      "wardId": "10203",
+      "isUrban": false
+    },
+    "1020401": {
+      "name": "Mateves",
+      "wardId": "10204",
+      "isUrban": false
+    },
+    "1020501": {
+      "name": "Musa",
+      "wardId": "10205",
+      "isUrban": false
+    },
+    "1020601": {
+      "name": "Oldonyosambu",
+      "wardId": "10206",
+      "isUrban": false
+    },
+    "1020701": {
+      "name": "Oljoro",
+      "wardId": "10207",
+      "isUrban": false
+    },
+    "1020801": {
+      "name": "Poli",
+      "wardId": "10208",
+      "isUrban": false
+    },
+    "2010101": {
+      "name": "Buguruni",
+      "wardId": "20101",
+      "isUrban": true
+    },
+    "2010201": {
+      "name": "Chanika",
+      "wardId": "20102",
+      "isUrban": true
+    },
+    "2010301": {
+      "name": "Gerezani",
+      "wardId": "20103",
+      "isUrban": true
+    },
+    "2010401": {
+      "name": "Ilala",
+      "wardId": "20104",
+      "isUrban": true
+    },
+    "2010501": {
+      "name": "Jangwani",
+      "wardId": "20105",
+      "isUrban": true
+    },
+    "2010601": {
+      "name": "Kariakoo",
+      "wardId": "20106",
+      "isUrban": true
+    },
+    "2010701": {
+      "name": "Kisutu",
+      "wardId": "20107",
+      "isUrban": true
+    },
+    "2010801": {
+      "name": "Kivukoni",
+      "wardId": "20108",
+      "isUrban": true
+    },
+    "2010901": {
+      "name": "Mchikichini",
+      "wardId": "20109",
+      "isUrban": true
+    },
+    "2011001": {
+      "name": "Pugu",
+      "wardId": "20110",
+      "isUrban": false
+    },
+    "2011101": {
+      "name": "Tabata",
+      "wardId": "20111",
+      "isUrban": true
+    },
+    "2011201": {
+      "name": "Upanga Magharibi",
+      "wardId": "20112",
+      "isUrban": true
+    },
+    "2011301": {
+      "name": "Upanga Mashariki",
+      "wardId": "20113",
+      "isUrban": true
+    },
+    "2030101": {
+      "name": "Hananasif",
+      "wardId": "20301",
+      "isUrban": true
+    },
+    "2030201": {
+      "name": "Kawe",
+      "wardId": "20302",
+      "isUrban": true
+    },
+    "2030301": {
+      "name": "Kinondoni",
+      "wardId": "20303",
+      "isUrban": true
+    },
+    "2030401": {
+      "name": "Mabibo",
+      "wardId": "20304",
+      "isUrban": true
+    },
+    "2030501": {
+      "name": "Magomeni",
+      "wardId": "20305",
+      "isUrban": true
+    },
+    "2030601": {
+      "name": "Makumbusho",
+      "wardId": "20306",
+      "isUrban": true
+    },
+    "2030701": {
+      "name": "Makurumla",
+      "wardId": "20307",
+      "isUrban": true
+    },
+    "2030801": {
+      "name": "Manzese",
+      "wardId": "20308",
+      "isUrban": true
+    },
+    "2030901": {
+      "name": "Mikocheni",
+      "wardId": "20309",
+      "isUrban": true
+    },
+    "2031001": {
+      "name": "Msasani",
+      "wardId": "20310",
+      "isUrban": true
+    },
+    "2031101": {
+      "name": "Tandale",
+      "wardId": "20311",
+      "isUrban": true
+    },
+    "9000101": {
+      "name": "Bonde la Ufa",
+      "wardId": "90001",
+      "isUrban": false
+    },
+    "9000102": {
+      "name": "Hai Mjini",
+      "wardId": "90001",
+      "isUrban": true
+    },
+    "9000103": {
+      "name": "Rongai",
+      "wardId": "90001",
+      "isUrban": false
+    },
+    "9000104": {
+      "name": "Mji Mwema",
+      "wardId": "90001",
+      "isUrban": true
+    },
+    "9000201": {
+      "name": "Kibosho Kati",
+      "wardId": "90002",
+      "isUrban": false
+    },
+    "9000202": {
+      "name": "Kibosho Magharibi",
+      "wardId": "90002",
+      "isUrban": false
+    },
+    "9000203": {
+      "name": "Kibosho Mashariki",
+      "wardId": "90002",
+      "isUrban": false
+    },
+    "9000204": {
+      "name": "Lyamungo",
+      "wardId": "90002",
+      "isUrban": false
+    },
+    "9000205": {
+      "name": "Machame Kaskazini",
+      "wardId": "90002",
+      "isUrban": false
+    },
+    "9000301": {
+      "name": "Foo",
+      "wardId": "90003",
+      "isUrban": false
+    },
+    "9000302": {
+      "name": "Machame Kusini",
+      "wardId": "90003",
+      "isUrban": false
+    },
+    "9000303": {
+      "name": "Narumu",
+      "wardId": "90003",
+      "isUrban": false
+    },
+    "9000401": {
+      "name": "Kyalla",
+      "wardId": "90004",
+      "isUrban": false
+    },
+    "9000402": {
+      "name": "Machame Magharibi",
+      "wardId": "90004",
+      "isUrban": false
+    },
+    "9000501": {
+      "name": "Machame Mashariki",
+      "wardId": "90005",
+      "isUrban": false
+    },
+    "9000502": {
+      "name": "Rau",
+      "wardId": "90005",
+      "isUrban": false
+    },
+    "9000601": {
+      "name": "Machame Uroki",
+      "wardId": "90006",
+      "isUrban": false
+    },
+    "9000701": {
+      "name": "Masama Magharibi",
+      "wardId": "90007",
+      "isUrban": false
+    },
+    "9000801": {
+      "name": "Masama Mashariki",
+      "wardId": "90008",
+      "isUrban": false
+    },
+    "9000901": {
+      "name": "Weruweru",
+      "wardId": "90009",
+      "isUrban": false
+    },
+    "9020101": {
+      "name": "Kiboriloni",
+      "wardId": "90201",
+      "isUrban": true
+    },
+    "9020201": {
+      "name": "Kilimanjaro",
+      "wardId": "90202",
+      "isUrban": true
+    },
+    "9020301": {
+      "name": "Korongoni",
+      "wardId": "90203",
+      "isUrban": true
+    },
+    "9020401": {
+      "name": "Majengo",
+      "wardId": "90204",
+      "isUrban": true
+    },
+    "9020501": {
+      "name": "Mawenzi",
+      "wardId": "90205",
+      "isUrban": true
+    },
+    "9020601": {
+      "name": "Mji Mpya",
+      "wardId": "90206",
+      "isUrban": true
+    },
+    "9020701": {
+      "name": "Msaranga",
+      "wardId": "90207",
+      "isUrban": true
+    },
+    "9020801": {
+      "name": "Pasua",
+      "wardId": "90208",
+      "isUrban": true
+    },
+    "9020901": {
+      "name": "Rau",
+      "wardId": "90209",
+      "isUrban": false
+    },
+    "9021001": {
+      "name": "Shirimatunda",
+      "wardId": "90210",
+      "isUrban": false
+    },
+    "9030101": {
+      "name": "Kahe",
+      "wardId": "90301",
+      "isUrban": false
+    },
+    "9030201": {
+      "name": "Kahe Mashariki",
+      "wardId": "90302",
+      "isUrban": false
+    },
+    "9030301": {
+      "name": "Kidia",
+      "wardId": "90303",
+      "isUrban": false
+    },
+    "9030401": {
+      "name": "Kilema Kaskazini",
+      "wardId": "90304",
+      "isUrban": false
+    },
+    "9030402": {
+      "name": "Kilema",
+      "wardId": "90304",
+      "isUrban": false
+    },
+    "9030501": {
+      "name": "Kilema Kusini",
+      "wardId": "90305",
+      "isUrban": false
+    },
+    "9030601": {
+      "name": "Kimochi",
+      "wardId": "90306",
+      "isUrban": false
+    },
+    "9030701": {
+      "name": "Kirua Vunjo Kusini",
+      "wardId": "90307",
+      "isUrban": false
+    },
+    "9030801": {
+      "name": "Kirua Vunjo Magharibi",
+      "wardId": "90308",
+      "isUrban": false
+    },
+    "9030901": {
+      "name": "Kirua Vunjo Mashariki",
+      "wardId": "90309",
+      "isUrban": false
+    },
+    "9031001": {
+      "name": "Mabogini",
+      "wardId": "90310",
+      "isUrban": false
+    },
+    "9031101": {
+      "name": "Marangu Magharibi",
+      "wardId": "90311",
+      "isUrban": false
+    },
+    "9031102": {
+      "name": "Ashira",
+      "wardId": "90311",
+      "isUrban": false
+    },
+    "9031201": {
+      "name": "Marangu Mashariki",
+      "wardId": "90312",
+      "isUrban": false
+    },
+    "9031301": {
+      "name": "Mwika Kaskazini",
+      "wardId": "90313",
+      "isUrban": false
+    },
+    "9031401": {
+      "name": "Mwika Kusini",
+      "wardId": "90314",
+      "isUrban": false
+    },
+    "9031501": {
+      "name": "Old Moshi Magharibi",
+      "wardId": "90315",
+      "isUrban": false
+    },
+    "9031601": {
+      "name": "Old Moshi Mashariki",
+      "wardId": "90316",
+      "isUrban": false
+    },
+    "13050101": {
+      "name": "Iyunga Mapinduzi",
+      "wardId": "130501",
+      "isUrban": true
+    },
+    "13050201": {
+      "name": "Iyunga Mpakani",
+      "wardId": "130502",
+      "isUrban": true
+    },
+    "13050301": {
+      "name": "Mabatini",
+      "wardId": "130503",
+      "isUrban": true
+    },
+    "13050401": {
+      "name": "Mbalizi",
+      "wardId": "130504",
+      "isUrban": false
+    },
+    "13050402": {
+      "name": "Itende",
+      "wardId": "130504",
+      "isUrban": false
+    },
+    "13050501": {
+      "name": "Nsoho",
+      "wardId": "130505",
+      "isUrban": true
+    },
+    "13050601": {
+      "name": "Nzovwe",
+      "wardId": "130506",
+      "isUrban": true
+    },
+    "13050701": {
+      "name": "Ruanda",
+      "wardId": "130507",
+      "isUrban": true
+    },
+    "13050801": {
+      "name": "Sisimba",
+      "wardId": "130508",
+      "isUrban": true
+    },
+    "13050901": {
+      "name": "Tembela",
+      "wardId": "130509",
+      "isUrban": true
+    },
+    "5010101": {
+      "name": "Gangilonga",
+      "wardId": "50101",
+      "isUrban": true
+    },
+    "5010201": {
+      "name": "Ilala",
+      "wardId": "50102",
+      "isUrban": true
+    },
+    "5010301": {
+      "name": "Ipogolo",
+      "wardId": "50103",
+      "isUrban": true
+    },
+    "5010401": {
+      "name": "Kihesa",
+      "wardId": "50104",
+      "isUrban": true
+    },
+    "5010501": {
+      "name": "Kitwiru",
+      "wardId": "50105",
+      "isUrban": true
+    },
+    "5010601": {
+      "name": "Makorongoni",
+      "wardId": "50106",
+      "isUrban": true
+    },
+    "5010701": {
+      "name": "Mivinjeni",
+      "wardId": "50107",
+      "isUrban": true
+    },
+    "5010801": {
+      "name": "Mkwawa",
+      "wardId": "50108",
+      "isUrban": true
+    },
+    "5010901": {
+      "name": "Mlandege",
+      "wardId": "50109",
+      "isUrban": true
+    },
+    "5011001": {
+      "name": "Mtwivila",
+      "wardId": "50110",
+      "isUrban": true
+    }
+  },
+  "hierarchy": {
+    "byRegion": {
+      "1": {
+        "districts": [
+          "101",
+          "102",
+          "103",
+          "104",
+          "105",
+          "106",
+          "107"
+        ]
+      },
+      "2": {
+        "districts": [
+          "201",
+          "202",
+          "203",
+          "204",
+          "205"
+        ]
+      },
+      "3": {
+        "districts": [
+          "301",
+          "302",
+          "303",
+          "304",
+          "305",
+          "306",
+          "307",
+          "308"
+        ]
+      },
+      "4": {
+        "districts": [
+          "401",
+          "402",
+          "403",
+          "404",
+          "405",
+          "406"
+        ]
+      },
+      "5": {
+        "districts": [
+          "501",
+          "502",
+          "503",
+          "504",
+          "505"
+        ]
+      },
+      "6": {
+        "districts": [
+          "601",
+          "602",
+          "603",
+          "604",
+          "605",
+          "606",
+          "607",
+          "608"
+        ]
+      },
+      "7": {
+        "districts": [
+          "701",
+          "702",
+          "703",
+          "704",
+          "705"
+        ]
+      },
+      "8": {
+        "districts": [
+          "801",
+          "802",
+          "803",
+          "804",
+          "805",
+          "806",
+          "807",
+          "808"
+        ]
+      },
+      "9": {
+        "districts": [
+          "901",
+          "902",
+          "903",
+          "904",
+          "905",
+          "906",
+          "907"
+        ]
+      },
+      "10": {
+        "districts": [
+          "1001",
+          "1002",
+          "1003",
+          "1004",
+          "1005",
+          "1006"
+        ]
+      },
+      "11": {
+        "districts": [
+          "1101",
+          "1102",
+          "1103",
+          "1104",
+          "1105",
+          "1106",
+          "1107"
+        ]
+      },
+      "12": {
+        "districts": [
+          "1201",
+          "1202",
+          "1203",
+          "1204",
+          "1205",
+          "1206",
+          "1207",
+          "1208",
+          "1209"
+        ]
+      },
+      "13": {
+        "districts": [
+          "1301",
+          "1302",
+          "1303",
+          "1304",
+          "1305",
+          "1306",
+          "1307"
+        ]
+      },
+      "14": {
+        "districts": [
+          "1401",
+          "1402",
+          "1403",
+          "1404",
+          "1405",
+          "1406",
+          "1407",
+          "1408",
+          "1409",
+          "1410"
+        ]
+      },
+      "15": {
+        "districts": [
+          "1501",
+          "1502",
+          "1503",
+          "1504",
+          "1505",
+          "1506",
+          "1507",
+          "1508",
+          "1509"
+        ]
+      },
+      "16": {
+        "districts": [
+          "1601",
+          "1602",
+          "1603",
+          "1604",
+          "1605",
+          "1606",
+          "1607",
+          "1608"
+        ]
+      },
+      "17": {
+        "districts": [
+          "1701",
+          "1702",
+          "1703",
+          "1704",
+          "1705",
+          "1706"
+        ]
+      },
+      "18": {
+        "districts": [
+          "1801",
+          "1802",
+          "1803",
+          "1804",
+          "1805",
+          "1806",
+          "1807",
+          "1808",
+          "1809"
+        ]
+      },
+      "19": {
+        "districts": [
+          "1901",
+          "1902",
+          "1903",
+          "1904"
+        ]
+      },
+      "20": {
+        "districts": [
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008"
+        ]
+      },
+      "21": {
+        "districts": [
+          "2101",
+          "2102",
+          "2103",
+          "2104",
+          "2105",
+          "2106"
+        ]
+      },
+      "22": {
+        "districts": [
+          "2201",
+          "2202",
+          "2203",
+          "2204",
+          "2205",
+          "2206"
+        ]
+      },
+      "23": {
+        "districts": [
+          "2301",
+          "2302",
+          "2303",
+          "2304",
+          "2305",
+          "2306",
+          "2307"
+        ]
+      },
+      "24": {
+        "districts": [
+          "2401",
+          "2402",
+          "2403",
+          "2404",
+          "2405"
+        ]
+      },
+      "25": {
+        "districts": [
+          "2501",
+          "2502",
+          "2503",
+          "2504",
+          "2505",
+          "2506",
+          "2507",
+          "2508"
+        ]
+      },
+      "26": {
+        "districts": [
+          "2601",
+          "2602",
+          "2603",
+          "2604",
+          "2605",
+          "2606",
+          "2607",
+          "2608",
+          "2609",
+          "2610",
+          "2611"
+        ]
+      },
+      "27": {
+        "districts": [
+          "2701",
+          "2702"
+        ]
+      },
+      "28": {
+        "districts": [
+          "2801",
+          "2802"
+        ]
+      },
+      "29": {
+        "districts": [
+          "2901",
+          "2902",
+          "2903"
+        ]
+      },
+      "30": {
+        "districts": [
+          "3001",
+          "3002"
+        ]
+      },
+      "31": {
+        "districts": [
+          "3101",
+          "3102"
+        ]
+      }
+    },
+    "byDistrict": {
+      "101": {
+        "wards": ["10001", "10002", "10003", "10004", "10005", "10006"]
+      },
+      "102": {
+        "wards": ["10201", "10202", "10203", "10204", "10205", "10206", "10207", "10208"]
+      },
+      "103": {
+        "wards": []
+      },
+      "104": {
+        "wards": []
+      },
+      "105": {
+        "wards": []
+      },
+      "106": {
+        "wards": []
+      },
+      "107": {
+        "wards": []
+      },
+      "201": {
+        "wards": ["20101", "20102", "20103", "20104", "20105", "20106", "20107", "20108", "20109", "20110", "20111", "20112", "20113"]
+      },
+      "202": {
+        "wards": []
+      },
+      "203": {
+        "wards": ["20301", "20302", "20303", "20304", "20305", "20306", "20307", "20308", "20309", "20310", "20311"]
+      },
+      "204": {
+        "wards": []
+      },
+      "205": {
+        "wards": []
+      },
+      "301": {
+        "wards": []
+      },
+      "302": {
+        "wards": []
+      },
+      "303": {
+        "wards": []
+      },
+      "304": {
+        "wards": []
+      },
+      "305": {
+        "wards": []
+      },
+      "306": {
+        "wards": []
+      },
+      "307": {
+        "wards": []
+      },
+      "308": {
+        "wards": []
+      },
+      "401": {
+        "wards": []
+      },
+      "402": {
+        "wards": []
+      },
+      "403": {
+        "wards": []
+      },
+      "404": {
+        "wards": []
+      },
+      "405": {
+        "wards": []
+      },
+      "406": {
+        "wards": []
+      },
+      "501": {
+        "wards": ["50101", "50102", "50103", "50104", "50105", "50106", "50107", "50108", "50109", "50110"]
+      },
+      "502": {
+        "wards": []
+      },
+      "503": {
+        "wards": []
+      },
+      "504": {
+        "wards": []
+      },
+      "505": {
+        "wards": []
+      },
+      "601": {
+        "wards": []
+      },
+      "602": {
+        "wards": []
+      },
+      "603": {
+        "wards": []
+      },
+      "604": {
+        "wards": []
+      },
+      "605": {
+        "wards": []
+      },
+      "606": {
+        "wards": []
+      },
+      "607": {
+        "wards": []
+      },
+      "608": {
+        "wards": []
+      },
+      "701": {
+        "wards": []
+      },
+      "702": {
+        "wards": []
+      },
+      "703": {
+        "wards": []
+      },
+      "704": {
+        "wards": []
+      },
+      "705": {
+        "wards": []
+      },
+      "801": {
+        "wards": []
+      },
+      "802": {
+        "wards": []
+      },
+      "803": {
+        "wards": []
+      },
+      "804": {
+        "wards": []
+      },
+      "805": {
+        "wards": []
+      },
+      "806": {
+        "wards": []
+      },
+      "807": {
+        "wards": []
+      },
+      "808": {
+        "wards": []
+      },
+      "901": {
+        "wards": ["90001", "90002", "90003", "90004", "90005", "90006", "90007", "90008", "90009"]
+      },
+      "902": {
+        "wards": ["90201", "90202", "90203", "90204", "90205", "90206", "90207", "90208", "90209", "90210"]
+      },
+      "903": {
+        "wards": ["90301", "90302", "90303", "90304", "90305", "90306", "90307", "90308", "90309", "90310", "90311", "90312", "90313", "90314", "90315", "90316"]
+      },
+      "904": {
+        "wards": []
+      },
+      "905": {
+        "wards": []
+      },
+      "906": {
+        "wards": []
+      },
+      "907": {
+        "wards": []
+      },
+      "1001": {
+        "wards": []
+      },
+      "1002": {
+        "wards": []
+      },
+      "1003": {
+        "wards": []
+      },
+      "1004": {
+        "wards": []
+      },
+      "1005": {
+        "wards": []
+      },
+      "1006": {
+        "wards": []
+      },
+      "1101": {
+        "wards": []
+      },
+      "1102": {
+        "wards": []
+      },
+      "1103": {
+        "wards": []
+      },
+      "1104": {
+        "wards": []
+      },
+      "1105": {
+        "wards": []
+      },
+      "1106": {
+        "wards": []
+      },
+      "1107": {
+        "wards": []
+      },
+      "1201": {
+        "wards": []
+      },
+      "1202": {
+        "wards": []
+      },
+      "1203": {
+        "wards": []
+      },
+      "1204": {
+        "wards": []
+      },
+      "1205": {
+        "wards": []
+      },
+      "1206": {
+        "wards": []
+      },
+      "1207": {
+        "wards": []
+      },
+      "1208": {
+        "wards": []
+      },
+      "1209": {
+        "wards": []
+      },
+      "1301": {
+        "wards": []
+      },
+      "1302": {
+        "wards": []
+      },
+      "1303": {
+        "wards": []
+      },
+      "1304": {
+        "wards": []
+      },
+      "1305": {
+        "wards": ["130501", "130502", "130503", "130504", "130505", "130506", "130507", "130508", "130509"]
+      },
+      "1306": {
+        "wards": []
+      },
+      "1307": {
+        "wards": []
+      },
+      "1401": {
+        "wards": []
+      },
+      "1402": {
+        "wards": []
+      },
+      "1403": {
+        "wards": []
+      },
+      "1404": {
+        "wards": []
+      },
+      "1405": {
+        "wards": []
+      },
+      "1406": {
+        "wards": []
+      },
+      "1407": {
+        "wards": []
+      },
+      "1408": {
+        "wards": []
+      },
+      "1409": {
+        "wards": []
+      },
+      "1410": {
+        "wards": []
+      },
+      "1501": {
+        "wards": []
+      },
+      "1502": {
+        "wards": []
+      },
+      "1503": {
+        "wards": []
+      },
+      "1504": {
+        "wards": []
+      },
+      "1505": {
+        "wards": []
+      },
+      "1506": {
+        "wards": []
+      },
+      "1507": {
+        "wards": []
+      },
+      "1508": {
+        "wards": []
+      },
+      "1509": {
+        "wards": []
+      },
+      "1601": {
+        "wards": []
+      },
+      "1602": {
+        "wards": []
+      },
+      "1603": {
+        "wards": []
+      },
+      "1604": {
+        "wards": []
+      },
+      "1605": {
+        "wards": []
+      },
+      "1606": {
+        "wards": []
+      },
+      "1607": {
+        "wards": []
+      },
+      "1608": {
+        "wards": []
+      },
+      "1701": {
+        "wards": []
+      },
+      "1702": {
+        "wards": []
+      },
+      "1703": {
+        "wards": []
+      },
+      "1704": {
+        "wards": []
+      },
+      "1705": {
+        "wards": []
+      },
+      "1706": {
+        "wards": []
+      },
+      "1801": {
+        "wards": []
+      },
+      "1802": {
+        "wards": []
+      },
+      "1803": {
+        "wards": []
+      },
+      "1804": {
+        "wards": []
+      },
+      "1805": {
+        "wards": []
+      },
+      "1806": {
+        "wards": []
+      },
+      "1807": {
+        "wards": []
+      },
+      "1808": {
+        "wards": []
+      },
+      "1809": {
+        "wards": []
+      },
+      "1901": {
+        "wards": []
+      },
+      "1902": {
+        "wards": []
+      },
+      "1903": {
+        "wards": []
+      },
+      "1904": {
+        "wards": []
+      },
+      "2001": {
+        "wards": []
+      },
+      "2002": {
+        "wards": []
+      },
+      "2003": {
+        "wards": []
+      },
+      "2004": {
+        "wards": []
+      },
+      "2005": {
+        "wards": []
+      },
+      "2006": {
+        "wards": []
+      },
+      "2007": {
+        "wards": []
+      },
+      "2008": {
+        "wards": []
+      },
+      "2101": {
+        "wards": []
+      },
+      "2102": {
+        "wards": []
+      },
+      "2103": {
+        "wards": []
+      },
+      "2104": {
+        "wards": []
+      },
+      "2105": {
+        "wards": []
+      },
+      "2106": {
+        "wards": []
+      },
+      "2201": {
+        "wards": []
+      },
+      "2202": {
+        "wards": []
+      },
+      "2203": {
+        "wards": []
+      },
+      "2204": {
+        "wards": []
+      },
+      "2205": {
+        "wards": []
+      },
+      "2206": {
+        "wards": []
+      },
+      "2301": {
+        "wards": []
+      },
+      "2302": {
+        "wards": []
+      },
+      "2303": {
+        "wards": []
+      },
+      "2304": {
+        "wards": []
+      },
+      "2305": {
+        "wards": []
+      },
+      "2306": {
+        "wards": []
+      },
+      "2307": {
+        "wards": []
+      },
+      "2401": {
+        "wards": []
+      },
+      "2402": {
+        "wards": []
+      },
+      "2403": {
+        "wards": []
+      },
+      "2404": {
+        "wards": []
+      },
+      "2405": {
+        "wards": []
+      },
+      "2501": {
+        "wards": []
+      },
+      "2502": {
+        "wards": []
+      },
+      "2503": {
+        "wards": []
+      },
+      "2504": {
+        "wards": []
+      },
+      "2505": {
+        "wards": []
+      },
+      "2506": {
+        "wards": []
+      },
+      "2507": {
+        "wards": []
+      },
+      "2508": {
+        "wards": []
+      },
+      "2601": {
+        "wards": []
+      },
+      "2602": {
+        "wards": []
+      },
+      "2603": {
+        "wards": []
+      },
+      "2604": {
+        "wards": []
+      },
+      "2605": {
+        "wards": []
+      },
+      "2606": {
+        "wards": []
+      },
+      "2607": {
+        "wards": []
+      },
+      "2608": {
+        "wards": []
+      },
+      "2609": {
+        "wards": []
+      },
+      "2610": {
+        "wards": []
+      },
+      "2611": {
+        "wards": []
+      },
+      "2701": {
+        "wards": []
+      },
+      "2702": {
+        "wards": []
+      },
+      "2801": {
+        "wards": []
+      },
+      "2802": {
+        "wards": []
+      },
+      "2901": {
+        "wards": []
+      },
+      "2902": {
+        "wards": []
+      },
+      "2903": {
+        "wards": []
+      },
+      "3001": {
+        "wards": []
+      },
+      "3002": {
+        "wards": []
+      },
+      "3101": {
+        "wards": []
+      },
+      "3102": {
+        "wards": []
+      }
+    },
+    "byWard": {
+      "10001": {"villages": ["1000101"]},
+      "10002": {"villages": ["1000201", "1000202"]},
+      "10003": {"villages": ["1000301"]},
+      "10004": {"villages": ["1000401"]},
+      "10005": {"villages": ["1000501"]},
+      "10201": {"villages": ["1020101", "1020102"]},
+      "10202": {"villages": ["1020201"]},
+      "10203": {"villages": ["1020301"]},
+      "10204": {"villages": ["1020401"]},
+      "10205": {"villages": ["1020501"]},
+      "10206": {"villages": ["1020601"]},
+      "10207": {"villages": ["1020701"]},
+      "10208": {"villages": ["1020801"]},
+      "20101": {"villages": ["2010101"]},
+      "20102": {"villages": ["2010201"]},
+      "20103": {"villages": ["2010301"]},
+      "20104": {"villages": ["2010401"]},
+      "20105": {"villages": ["2010501"]},
+      "20106": {"villages": ["2010601"]},
+      "20107": {"villages": ["2010701"]},
+      "20108": {"villages": ["2010801"]},
+      "20109": {"villages": ["2010901"]},
+      "20110": {"villages": ["2011001"]},
+      "20111": {"villages": ["2011101"]},
+      "20112": {"villages": ["2011201"]},
+      "20113": {"villages": ["2011301"]},
+      "20301": {"villages": ["2030101"]},
+      "20302": {"villages": ["2030201"]},
+      "20303": {"villages": ["2030301"]},
+      "20304": {"villages": ["2030401"]},
+      "20305": {"villages": ["2030501"]},
+      "20306": {"villages": ["2030601"]},
+      "20307": {"villages": ["2030701"]},
+      "20308": {"villages": ["2030801"]},
+      "20309": {"villages": ["2030901"]},
+      "20310": {"villages": ["2031001"]},
+      "20311": {"villages": ["2031101"]},
+      "90001": {"villages": ["9000101", "9000102", "9000103", "9000104"]},
+      "90002": {"villages": ["9000201", "9000202", "9000203", "9000204", "9000205"]},
+      "90003": {"villages": ["9000301", "9000302", "9000303"]},
+      "90004": {"villages": ["9000401", "9000402"]},
+      "90005": {"villages": ["9000501", "9000502"]},
+      "90006": {"villages": ["9000601"]},
+      "90007": {"villages": ["9000701"]},
+      "90008": {"villages": ["9000801"]},
+      "90009": {"villages": ["9000901"]},
+      "90201": {"villages": ["9020101"]},
+      "90202": {"villages": ["9020201"]},
+      "90203": {"villages": ["9020301"]},
+      "90204": {"villages": ["9020401"]},
+      "90205": {"villages": ["9020501"]},
+      "90206": {"villages": ["9020601"]},
+      "90207": {"villages": ["9020701"]},
+      "90208": {"villages": ["9020801"]},
+      "90209": {"villages": ["9020901"]},
+      "90210": {"villages": ["9021001"]},
+      "90301": {"villages": ["9030101"]},
+      "90302": {"villages": ["9030201"]},
+      "90303": {"villages": ["9030301"]},
+      "90304": {"villages": ["9030401", "9030402"]},
+      "90305": {"villages": ["9030501"]},
+      "90306": {"villages": ["9030601"]},
+      "90307": {"villages": ["9030701"]},
+      "90308": {"villages": ["9030801"]},
+      "90309": {"villages": ["9030901"]},
+      "90310": {"villages": ["9031001"]},
+      "90311": {"villages": ["9031101", "9031102"]},
+      "90312": {"villages": ["9031201"]},
+      "90313": {"villages": ["9031301"]},
+      "90314": {"villages": ["9031401"]},
+      "90315": {"villages": ["9031501"]},
+      "90316": {"villages": ["9031601"]},
+      "130501": {"villages": ["13050101"]},
+      "130502": {"villages": ["13050201"]},
+      "130503": {"villages": ["13050301"]},
+      "130504": {"villages": ["13050401", "13050402"]},
+      "130505": {"villages": ["13050501"]},
+      "130506": {"villages": ["13050601"]},
+      "130507": {"villages": ["13050701"]},
+      "130508": {"villages": ["13050801"]},
+      "130509": {"villages": ["13050901"]},
+      "50101": {"villages": ["5010101"]},
+      "50102": {"villages": ["5010201"]},
+      "50103": {"villages": ["5010301"]},
+      "50104": {"villages": ["5010401"]},
+      "50105": {"villages": ["5010501"]},
+      "50106": {"villages": ["5010601"]},
+      "50107": {"villages": ["5010701"]},
+      "50108": {"villages": ["5010801"]},
+      "50109": {"villages": ["5010901"]},
+      "50110": {"villages": ["5011001"]}
+    }
+  }
+}

@@ -1,0 +1,285 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // Helper functions
+    function isAuthenticated() {
+      return request.auth != null;
+    }
+    
+    function isCollectionAgent() {
+      return isAuthenticated() && request.auth.token.role == 'collection_agent';
+    }
+    
+    function isFarmer() {
+      return isAuthenticated() && request.auth.token.role == 'farmer';
+    }
+    
+    function isCooperativeManager() {
+      return isAuthenticated() && request.auth.token.role == 'cooperative_manager';
+    }
+    
+    function belongsToCooperative(cooperativeId) {
+      return isAuthenticated() && request.auth.token.cooperativeId == cooperativeId;
+    }
+    
+    function isFarmerOwner(farmerId) {
+      return isAuthenticated() && request.auth.uid == farmerId;
+    }
+    
+    // Users collection
+    match /users/{userId} {
+      allow read: if isAuthenticated() && request.auth.uid == userId;
+      allow write: if isAuthenticated() && request.auth.uid == userId;
+    }
+    
+    // Cooperatives
+    match /cooperatives/{cooperativeId} {
+      allow read: if belongsToCooperative(cooperativeId);
+      allow write: if isCooperativeManager() && belongsToCooperative(cooperativeId);
+    }
+    
+    // Farmers collection (flat structure)
+    match /farmers/{farmerId} {
+      // Validation functions for farmer data
+      function isValidNIDA() {
+        return request.resource.data.nationalId is string &&
+               request.resource.data.nationalId.size() == 20 &&
+               request.resource.data.nationalId.matches('^[0-9]+$');
+      }
+      
+      function isValidPhone() {
+        return request.resource.data.phoneNumber is string &&
+               request.resource.data.phoneNumber.matches('^\\+255[0-9]{9}$');
+      }
+      
+      function isValidGender() {
+        return !('gender' in request.resource.data) ||
+               request.resource.data.gender == null ||
+               request.resource.data.gender == 'Male' ||
+               request.resource.data.gender == 'Female';
+      }
+      
+      function isValidDateOfBirth() {
+        return !('dateOfBirth' in request.resource.data) ||
+               request.resource.data.dateOfBirth == null ||
+               request.resource.data.dateOfBirth is string;
+      }
+      
+      function hasRequiredFields() {
+        return request.resource.data.keys().hasAll([
+          'name', 'phoneNumber', 'nationalId', 'location',
+          'cooperativeId', 'hasAppAccess',
+          'creditScore', 'totalCattle', 'lactatingCattle', 'registeredAt',
+          'firstName', 'surname'
+        ]);
+      }
+      
+      function isValidFarmerData() {
+        return hasRequiredFields() &&
+               isValidNIDA() &&
+               isValidPhone() &&
+               isValidGender() &&
+               isValidDateOfBirth();
+      }
+      
+      // Read: cooperative members or farmer themselves
+      allow read: if belongsToCooperative(resource.data.cooperativeId) || isFarmerOwner(farmerId);
+      
+      // Create: collection agents within their cooperative
+      allow create: if isCollectionAgent() && 
+                      belongsToCooperative(request.resource.data.cooperativeId) &&
+                      isValidFarmerData();
+      
+      // Update: collection agents or farmer themselves
+      allow update: if ((isCollectionAgent() && belongsToCooperative(resource.data.cooperativeId)) ||
+                      isFarmerOwner(farmerId)) &&
+                      isValidFarmerData();
+      
+      // Delete: collection agents only
+      allow delete: if isCollectionAgent() && belongsToCooperative(resource.data.cooperativeId);
+    }
+    
+    // Milk Deliveries collection (flat structure)
+    match /milkDeliveries/{deliveryId} {
+      // Read: cooperative members or farmer owner
+      allow read: if belongsToCooperative(resource.data.cooperativeId) ||
+                    isFarmerOwner(resource.data.farmerId);
+      
+      // Create: collection agents only
+      allow create: if isCollectionAgent() && 
+                      belongsToCooperative(request.resource.data.cooperativeId);
+      
+      // Update: collection agents only
+      allow update: if isCollectionAgent() && 
+                      belongsToCooperative(resource.data.cooperativeId);
+      
+      // Delete: prevent deletion (audit trail)
+      allow delete: if false;
+    }
+    
+    // Cattle collection (flat structure)
+    match /cattle/{cattleId} {
+      // Read: cooperative members or farmer owner
+      allow read: if belongsToCooperative(resource.data.cooperativeId) ||
+                    isFarmerOwner(resource.data.farmerId);
+      
+      // Write: collection agents within their cooperative
+      allow write: if isCollectionAgent() && 
+                     belongsToCooperative(request.resource.data.cooperativeId);
+    }
+    
+    // Insurance Policies collection (flat structure)
+    match /insurancePolicies/{policyId} {
+      // Read: cooperative members or farmer owner
+      allow read: if belongsToCooperative(resource.data.cooperativeId) ||
+                    isFarmerOwner(resource.data.farmerId);
+      
+      // Create: collection agents within their cooperative
+      allow create: if isCollectionAgent() && 
+                      belongsToCooperative(request.resource.data.cooperativeId);
+      
+      // Update: collection agents or system
+      allow update: if (isCollectionAgent() && belongsToCooperative(resource.data.cooperativeId)) ||
+                      request.auth.token.role == 'system';
+      
+      // Delete: prevent deletion
+      allow delete: if false;
+      
+      // Premium Payments subcollection
+      match /premiumPayments/{paymentId} {
+        allow read: if belongsToCooperative(get(/databases/$(database)/documents/insurancePolicies/$(policyId)).data.cooperativeId);
+        allow create: if isCollectionAgent() || request.auth.token.role == 'system';
+        allow update, delete: if false;
+      }
+      
+      // Claims subcollection
+      match /claims/{claimId} {
+        allow read: if belongsToCooperative(get(/databases/$(database)/documents/insurancePolicies/$(policyId)).data.cooperativeId);
+        allow create, update: if isCollectionAgent() || request.auth.token.role == 'system';
+        allow delete: if false;
+      }
+    }
+    
+    // Premium Rates (global configuration)
+    match /premiumRates/{rateId} {
+      allow read: if isAuthenticated(); // All authenticated users can read rates
+      allow write: if isCooperativeManager(); // Only managers can update rates
+    }
+    
+    // Geographic data (locations) - read-only for authenticated users
+    match /locations/{locationId} {
+      allow read: if isAuthenticated(); // All authenticated users can read location data
+      allow write: if false; // Only admins can update via Firebase Console
+    }
+    
+    // Config collection - read-only for authenticated users
+    match /config/{configId} {
+      allow read: if isAuthenticated(); // All authenticated users can read config
+      allow write: if false; // Only admins can update via Firebase Console
+    }
+    
+    // Inventory Management - Products (with cooperative isolation)
+    match /products/{productId} {
+      // Users can only read products from their cooperative
+      allow read: if isAuthenticated() && 
+                    resource.data.cooperativeId == request.auth.token.cooperativeId;
+      
+      // Collection agents can create products only for their cooperative
+      allow create: if isCollectionAgent() && 
+                      request.resource.data.cooperativeId == request.auth.token.cooperativeId;
+      
+      // Collection agents can update products only within their cooperative
+      // Prevent changing cooperativeId
+      allow update: if isCollectionAgent() && 
+                      resource.data.cooperativeId == request.auth.token.cooperativeId &&
+                      request.resource.data.cooperativeId == request.auth.token.cooperativeId;
+      
+      // Prevent deletion - use soft delete with isActive flag instead
+      allow delete: if false;
+    }
+    
+    // Inventory Management - Stock Transactions (Audit Trail with cooperative isolation)
+    match /stock_transactions/{transactionId} {
+      // Users can only read transactions from their cooperative
+      allow read: if isAuthenticated() && 
+                    resource.data.cooperativeId == request.auth.token.cooperativeId;
+      
+      // Collection agents can create transactions only for their cooperative
+      allow create: if isCollectionAgent() && 
+                      request.resource.data.cooperativeId == request.auth.token.cooperativeId;
+      
+      // Prevent updates and deletions - immutable audit trail
+      allow update, delete: if false;
+    }
+    
+    // Inventory Management - Sale Transactions (with cooperative isolation)
+    match /sale_transactions/{saleId} {
+      // Users can only read sales from their cooperative
+      allow read: if isAuthenticated() && 
+                    resource.data.cooperativeId == request.auth.token.cooperativeId;
+      
+      // Collection agents can create sales only for their cooperative
+      allow create: if isCollectionAgent() && 
+                      request.resource.data.cooperativeId == request.auth.token.cooperativeId;
+      
+      // Allow updates only for unsynced transactions within same cooperative
+      // Prevent changing cooperativeId
+      allow update: if isCollectionAgent() && 
+                      resource.data.cooperativeId == request.auth.token.cooperativeId &&
+                      request.resource.data.cooperativeId == request.auth.token.cooperativeId &&
+                      resource.data.isSynced == false;
+      
+      // Prevent deletion of sale records
+      allow delete: if false;
+    }
+    
+    // Analytics Cache - for performance optimization
+    match /analytics_cache/{cacheKey} {
+      // Authenticated users can read cached analytics
+      allow read: if isAuthenticated();
+      
+      // System (Cloud Functions) can write cache
+      allow write: if request.auth.token.role == 'system';
+    }
+    
+    // Alerts - system-generated notifications
+    match /alerts/{alertId} {
+      // Users can read alerts for their cooperative
+      allow read: if isAuthenticated() && 
+                    belongsToCooperative(resource.data.cooperativeId);
+      
+      // System (Cloud Functions) can create alerts
+      allow create: if request.auth.token.role == 'system';
+      
+      // Users can update alerts (mark as read)
+      allow update: if isAuthenticated() && 
+                      belongsToCooperative(resource.data.cooperativeId) &&
+                      request.resource.data.diff(resource.data).affectedKeys().hasOnly(['isRead', 'readAt']);
+      
+      // Prevent deletion of alerts
+      allow delete: if false;
+    }
+    
+    // Scheduled Reports - automated report generation
+    match /scheduled_reports/{reportId} {
+      // Cooperative managers can read their scheduled reports
+      allow read: if isCooperativeManager() && 
+                    belongsToCooperative(resource.data.cooperativeId);
+      
+      // Cooperative managers can create and update scheduled reports
+      allow create, update: if isCooperativeManager() && 
+                              belongsToCooperative(request.resource.data.cooperativeId);
+      
+      // Cooperative managers can delete their scheduled reports
+      allow delete: if isCooperativeManager() && 
+                      belongsToCooperative(resource.data.cooperativeId);
+    }
+    
+    // Default deny all other paths
+    match /{document=**} {
+      allow read, write: if false;
+    }
+  }
+}
